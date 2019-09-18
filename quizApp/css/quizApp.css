@@ -1,0 +1,361 @@
+** {
+    margin: 0; 
+    padding: 0; 
+}
+
+body {
+    font-family: Arial, Helvetica, Sans-serif;
+    background-color: mintcream;
+    font-size: 1.2em;
+    height: 100%;
+}
+
+header {
+    display: block;  
+    background-color: navy; 
+    padding: 20px; 
+    border-bottom: 5px solid #757575;
+}
+
+h1 {
+    font-weight: normal; 
+    padding: 1.5em; 
+    color: white; 
+    text-shadow: 1px 1px 0px #444; 
+    width: 1000px; 
+    margin: auto;
+}
+
+nav {
+    background-color: #443A5C;
+}
+
+nav a {
+    color: white; 
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ddd;
+}
+
+nav ul {
+    display: table; 
+    width: 1000px; 
+    margin: auto;
+}
+
+nav li {
+    display: table-cell; 
+    text-align: center; 
+    padding: 1em;
+}
+
+main {
+    overflow: auto; 
+    min-height: 30vh; 
+    background-color: #f7f7f7; 
+    width: 1000px; 
+    margin: auto; 
+    box-shadow: -1000px 0 0 #f7f7f7, 1000px 0 0 #f7f7f7; 
+    padding-top: 20px;
+}
+
+footer {
+    padding: 1em; 
+    background-color: #FFC9A7 ; 
+    font-size: 0.8em;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+.signin input, button, label, select, textarea {
+    float: left; 
+    width: 15em; 
+    margin-bottom: 1em;  
+    padding: 0.5em;
+}
+
+.signin label {
+    clear: left; 
+    padding: 0; 
+    margin: 0;
+}
+
+.signin input[type="submit"] {
+    margin-left: 15em; 
+    width: auto; 
+    padding: 0.5em 1em; 
+    clear: both; 
+    font-size: 1em;
+    background-color: dodgerblue;
+    border: 1px solid #ddd;
+    color: white;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.signin form {
+    overflow: auto; 
+    clear: both; 
+    display: block;
+}
+
+.editor input, button, label, select, textarea {
+    float: left; 
+    width: 15em; 
+    margin-bottom: 1em;  
+    padding: 0.5em;
+}
+
+.editor label {
+    clear: left; 
+    padding: 0; 
+    margin: 0;
+}
+
+.editor input[type="submit"] {
+    margin-left: 15em; 
+    width: auto; 
+    padding: 0.5em 1em; 
+    clear: both; 
+    font-size: 1em;
+    background-color: dodgerblue;
+    border: 1px solid #ddd;
+    color: white;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.editor form {
+    overflow: auto; 
+    clear: both; 
+    display: block;
+}
+
+
+blockquote {
+    display: table; 
+    margin-bottom: 1em; 
+    border-bottom: 1px solid #ccc; 
+    padding: 0.3em; 
+}
+
+
+blockquote p {
+    display: table-cell; 
+    width: 95%; 
+    vertical-align: top;
+}
+
+blockquote form {
+    display: table-cell; 
+    width: 10%;
+}
+
+.errors {
+    padding: 1em; 
+    border: 1px solid red; 
+    background-color: lightyellow; 
+    color: red; 
+    margin-bottom: 1em; 
+    overflow: auto;
+}
+
+.errors ul {
+    margin-left: 1em;
+}
+
+form p {
+    clear: both;
+}
+
+
+.currentpage:before { 
+    content: "["; 
+}
+.currentpage:after { 
+    content: "]"; 
+}
+
+div.separator {
+    text-align: center;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+th, td {    
+    border: none;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 3px;
+}
+
+.editlink {
+    background-color: dodgerblue;
+    color: white;
+    padding: 0.3em 1em;
+    clear: both; 
+    font-size: 0.7em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 40px;
+    text-decoration: none;
+}
+
+.takeQuiz {
+    background-color: dodgerblue;
+    color: white;
+    padding: 0.3em 1em;
+    clear: both; 
+    font-size: 0.7em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 40px;
+    text-decoration: none;
+}
+
+
+.deletelink {
+    background-color:red;
+    color: white;
+    padding: 0.3em 1em;
+    clear: both; 
+    font-size: 0.7em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 40px;
+}
+
+.questionlink {
+    background-color: lightseagreen;
+    color: white;
+    padding: 0.3em 1em;
+    clear: both; 
+    font-size: 0.7em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 40px;
+    text-decoration: none;
+}
+
+.inline-form input, button, label, select, textarea {
+    float: left; 
+    width: 15em; 
+    margin-bottom: 1em;  
+    padding: 0.5em;
+}
+
+.inline-form label {
+    clear: left; 
+    padding: 0; 
+    margin: 0;
+}
+
+.inline-form input[type="submit"] {
+    margin-left: 15em; 
+    width: auto; 
+    padding: 0.5em 1em; 
+    clear: both; 
+    font-size: 1em;
+    background-color: dodgerblue;
+    border: 1px solid #ddd;
+    color: white;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.inline-form form {
+    overflow: auto; 
+    clear: both; 
+    display: block;
+}
+
+.questions table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+.questions th {
+    border: none;   
+    text-align: left;
+    padding: 12px;
+}
+
+.questions td {
+    border: none;     
+    text-align: left;
+    padding: 12px;
+}
+
+.questions input[value="Edit"] {
+    width: auto; 
+    padding: 0.3em 1em; 
+    clear: both; 
+    font-size: 0.8em;
+    background-color: dodgerblue;
+    border: 1px solid #ddd;
+    color: white;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.questions input[value="Delete"] {
+    width: auto; 
+    padding: 0.3em 1em; 
+    clear: both; 
+    font-size: 0.8em;
+    background-color: red;
+    border: 1px solid #ddd;
+    color: white;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.quizzes table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+.quizzes th {
+    border: none;   
+    text-align: left;
+    padding: 12px;
+}
+
+.quizzes td {
+    border: none;     
+    text-align: left;
+    padding: 12px;
+}
+
+.answers input[value="Submit Answers"] {
+    width: auto; 
+    padding: 0.5em 1em; 
+    clear: both; 
+    font-size: 0.8em;
+    background-color: dodgerblue;
+    border: 1px solid #ddd;
+    color: white;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.showMessage {
+    color: red;
+}
